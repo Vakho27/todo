@@ -1,0 +1,117 @@
+.Card{
+  margin-top: 150px;
+  margin-left: 700px;
+  border: 1px solid black;
+  width: 430px;
+  height:  636px;
+  top: 162px;
+  border-radius: 10px;
+text-align: center;
+
+}
+.cart-time{
+  margin-top: 150px;
+  margin-left: 220px;
+  width: 192px;
+height: 58px;
+top: 293px;
+left: 1048px;
+font-family: Russo One;
+font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0em;
+align-items: end;
+
+
+
+}
+.card-image{
+
+  width: 430px;
+height: 202px;
+top: 162px;
+left: 838px;
+border-radius: 10px, 10px, 0px, 0px
+
+}
+.card-text{
+  margin-top: 20px;
+  text-align: center;
+
+  border: 1px solid rgb(24, 165, 247);
+  width: 275px;
+  height: 49px;
+  padding: 12px, 189px, 13px, 14px;
+  border-radius: 5px;
+  gap: 10px
+}
+.card-button{
+  margin-top: 20px;
+  width: Fixed (88px);
+height: Fill (49px);
+padding: 10px;
+border-radius: 5px;
+gap: 11px;
+background-color:  #20EEB0;
+;
+
+}
+.seccond-card{
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 373px;
+height: 248px;
+top: 472px;
+left: 867px;
+border: 2px solid rgb(204, 204, 204);
+}
+.card-text1{
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 373px;
+height: 248px;
+top: 472px;
+left: 867px;
+border: 2px solid rgb(204, 204, 204);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Inter-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Inter-Medium.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Inter-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Inter-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/RussoOne-Regular.ttf');
+  font-weight: 400;
+}
+
+body {
+  background-color: #EEE;
+  font-family: myfont;
+}
